@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# --- LanceDB index (large, regenerable via build_index.py) ---
+data/index/
+data/alt_index/
+
+# --- Streamlit / runtime ---
+.streamlit/
+*.log
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Secrets ---
+.env

@@ -1,0 +1,50 @@
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+
+# Generated caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Project data and generated assets
+L25_data/
+L30_data/
+captions/
+data/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.sqlite
+*.db
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Local tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

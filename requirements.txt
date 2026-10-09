@@ -1,0 +1,45 @@
+# --- PyTorch CUDA 12.4 Index ---
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# --- Core & Data ---
+numpy>=1.26.4
+opencv-python>=4.10.0
+Pillow>=10.0.0
+tqdm>=4.66.0
+pandas>=2.2.2
+scikit-learn>=1.5.0
+requests>=2.32.0
+python-dotenv>=1.0.1
+
+# --- Deep Learning (PyTorch) ---
+torch
+torchvision
+torchaudio
+
+# --- HuggingFace & Vision-Language Models ---
+transformers>=4.40.0
+huggingface-hub>=0.24.0
+sentence-transformers>=3.0.0
+open_clip_torch>=2.26.0
+timm>=1.0.8
+
+# --- Speech Recognition (STT) ---
+faster-whisper>=1.0.0
+ctranslate2>=4.0.0
+
+# --- Gemini API ---
+google-generativeai>=0.8.0
+
+# --- Vector Search ---
+faiss-cpu>=1.8.0
+
+# --- Video Retrieval UI (my-video-retrieval) ---
+lancedb>=0.15.0          # Unified vector store + native BM25 FTS (Tantivy-backed)
+tantivy>=0.22.0          # BM25 full-text engine used by LanceDB hybrid search
+streamlit>=1.41.0        # UI frontend; >=1.41 required for st.video(start_time=...)
+pytest>=8.3.0            # Test runner for validation gates
+
+# --- Utilities & Notebook ---
+matplotlib>=3.9.0
+jupyterlab>=4.2.0
+ipykernel>=6.29.0
